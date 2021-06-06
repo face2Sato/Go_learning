@@ -13,11 +13,11 @@ func main() {
 	// }
 
 	for _, v := range unko {
-		f.Println("map's val:", filterHumanFunc(v))
+		f.Println("map's val:", filterHuman(v))
 	}
 }
 
-func filterHumanFunc(val string) string {
+func filterHuman(val string) string {
 	if val == "yoshiki" {
 		return "Human"
 	} else {
