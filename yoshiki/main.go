@@ -52,3 +52,5 @@ func FindGarbage(v string) string {
 		return "go to toilet"
 	}
 }
+
+//modified in main
